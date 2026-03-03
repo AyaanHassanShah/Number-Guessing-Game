@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="Guess.css">
+  <title>Number Guessing Game</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <h2>Guess the Number</h2>
+    <p class="subtitle">Pick a number between 1 and 10</p>
+
+
+    <div id="result"></div>
+
+    <div class="input-row">
+      <input type="number" id="guess" placeholder="Your guess" min="1" max="10">
+      <button class="btn-guess" onclick="checkGuess()">Go</button>
+    </div>
+
+    <button class="btn-restart" onclick="StartAgain()">&#8635; Restart</button>
+  </div>
+
+  <script src="Guess.js"></script>
+
+</body>
+
+</html>
